@@ -23,7 +23,7 @@ p{
 }
 
 blockquote{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     font-family: 'Gideon Roman', cursive;
     color: white;
 }
