@@ -1,3 +1,28 @@
-body{
-    color: tomato;
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto&family=Vina+Sans&display=swap');
+
+
+h1{
+    font-family: 'Vina Sans', cursive;
+    font-size: 800%;
+    font-weight: lighter;
+}
+
+h1::before,
+h1::after{
+    color: red;
+    content: " ••• "
+}
+
+header p {
+    background-color: lightgray;
+    font-family: 'Gideon Roman', cursive;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+blockquote{
+    background-color: lightgray;
+    font-family: 'Gideon Roman', cursive;
 }
