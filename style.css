@@ -1,29 +1,153 @@
-@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto&family=Vina+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Roboto:ital,wght@0,300;0,400;1,300&family=Vina+Sans&display=swap');@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;1,300&family=Vina+Sans&display=swap');
 
 h1{
     font-family: 'Vina Sans', cursive;
-    font-size: 800%;
+    font-size: 600%;
     font-weight: lighter;
+    padding-bottom: 10px;
 }
 
-h1::before,
-h1::after{
-    color: red;
-    content: " ••• "
+header {
+    border-style: dotted;
+    padding: 1px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    text-align: center;
 }
 
-header p {
-    background-color: lightgray;
-    font-family: 'Gideon Roman', cursive;
+
+.vertical {
+    border-left: 2px dotted black;
+    height: 1000px;
+    margin-top: 130px;
+    position: fixed;
+    left: 50%;
 }
 
-p{
+
+article {
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 50%;
+    background-color: white;
+    padding: 20px;
+    padding-top: 140px;
+    
 }
 
-blockquote{
+p {
+    font-weight: 300;
+    padding: 20px;
+    text-align: left;
+    text-indent: 30px;
+    line-height: 1.4;
+}
+
+em{
+    font-style: italic;
+}
+
+blockquote.one{
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+blockquote.two{
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+blockquote.three{
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 100px;
+}
+
+blockquote.four{
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 100px;
+}
+
+blockquote.five{
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+blockquote span{
+    background-color: lightgray ;
+
+}
+
+section{
+    float:left;
+    margin-left: 19.5%;
+    margin-top: 470px;
+    position: sticky;
+    top: 470px;
+}
+
+aside p{
+    padding: 0%;
+    text-align: center;
+}
+
+.section:nth-child(2){
     background-color: black;
-    font-family: 'Gideon Roman', cursive;
+}
+
+.response{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 50%;
+    background-color: black;
+    padding: 20px;
+    padding-top: 100px;
     color: white;
+}
+
+blockquote.six{
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+    color: black;
+}
+
+blockquote.seven{
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 40px;
+    color: black;
+}
+
+blockquote.eight{
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+footer{
+    border-style: dotted;
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    background-color: white;
+    display:inline;
 }
