@@ -11,20 +11,42 @@ header {
     border-style: dotted;
     padding: 1px;
     position: fixed;
+    top:0;
     width: 100%;
     background-color: white;
     text-align: center;
+    z-index: 1;
 }
 
 
 .vertical {
     border-left: 2px dotted black;
-    height: 1000px;
+    height: 800px;
     margin-top: 130px;
     position: fixed;
     left: 50%;
 }
 
+section{
+    height: 3500px;
+    top: 470px;
+}
+
+section:nth-child(2){
+    height: 10%;
+}
+
+
+.sticky{
+    position: sticky;
+    top:470px;
+    margin-right: 52%;
+}
+
+aside p{
+    padding: 0%;
+    text-align: center;
+}
 
 article {
     font-family: 'Roboto', sans-serif;
@@ -32,7 +54,7 @@ article {
     margin-left: 50%;
     background-color: white;
     padding: 20px;
-    padding-top: 140px;
+    padding-top: 90px;
     
 }
 
@@ -90,31 +112,15 @@ blockquote span{
 
 }
 
-section{
-    float:left;
-    margin-left: 19.5%;
-    margin-top: 470px;
-    position: sticky;
-    top: 470px;
-}
-
-aside p{
-    padding: 0%;
-    text-align: center;
-}
-
-.section:nth-child(2){
-    background-color: black;
-}
 
 .response{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-left: 50%;
-    background-color: black;
     padding: 20px;
-    padding-top: 100px;
-    color: white;
+    padding-top: 30px;
+    border-bottom: 1px dotted black;
+    border-top: 2px dotted black;
 }
 
 blockquote.six{
@@ -143,11 +149,22 @@ blockquote.eight{
     color: black;
 }
 
-footer{
+.footer{
     border-style: dotted;
-    
+    padding: 1px;
+    bottom: 0px;
+    width: 100%;
     font-family: 'Playfair Display', serif;
-    font-size: 12px;
+    font-size: 11px;
     background-color: white;
-    display:inline;
+    position: relative;
+    z-index: 1;
 }
+
+th{
+    padding-left: 5px;
+    padding-right:5px;
+    width: 48%;
+}
+
+
