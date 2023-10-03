@@ -22,7 +22,7 @@ header {
 
 .vertical {
     border-left: 2px dotted black;
-    height: 1500px;
+    height: 2000px;
     margin-top: 130px;
     position: fixed;
     left: 50%;
