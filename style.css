@@ -131,6 +131,15 @@ blockquote span{
     line-height: 1.25;
 }
 
+a{
+    text-decoration: underline;
+}
+
+a[href^='https://']::after{
+    content:'↗';
+    text-decoration: underline;
+}
+
 blockquote.six{
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
