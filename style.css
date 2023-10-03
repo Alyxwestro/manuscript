@@ -2,9 +2,9 @@
 
 h1{
     font-family: 'Vina Sans', cursive;
-    font-size: 600%;
+    font-size: 1000%;
     font-weight: lighter;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 header {
@@ -21,7 +21,7 @@ header {
 
 .vertical {
     border-left: 2px dotted black;
-    height: 800px;
+    height: 1500px;
     margin-top: 130px;
     position: fixed;
     left: 50%;
@@ -31,11 +31,9 @@ section{
     top: 470px;
 }
 
-
-
 .sticky{
     position: sticky;
-    top:460px;
+    top:490px;
     margin-right: 52%;
 }
 
@@ -45,6 +43,7 @@ aside p{
     font-size: 20px;
     padding: 0%;
     text-align: center;
+    line-height: 1.25;
 }
 
 article {
@@ -53,7 +52,7 @@ article {
     margin-left: 50%;
     background-color: white;
     padding: 20px;
-    padding-top: 90px;
+    padding-top: 140px;
     
 }
 
@@ -62,7 +61,7 @@ p {
     padding: 20px;
     text-align: left;
     text-indent: 30px;
-    line-height: 1.4;
+    line-height: 1.25;
 }
 
 em{
@@ -71,39 +70,49 @@ em{
 }
 
 blockquote.one{
-    font-family: 'Playfair Display', serif;
-    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
     font-size: 30px;
-    padding-left: 40px;
+    padding-left: 80px;
     padding-top: 20px;
 }
 
 blockquote.two{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
     text-align: left;
     font-size: 30px;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 
 blockquote.three{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
     text-align: left;
     font-size: 30px;
     padding-left: 100px;
 }
 
 blockquote.four{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
     text-align: left;
     font-size: 30px;
     padding-left: 100px;
 }
 
 blockquote.five{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
     text-align: left;
     font-size: 30px;
-    padding-left: 100px;
+    padding-left: 300px;
     padding-bottom: 20px;
 }
 
@@ -117,34 +126,45 @@ blockquote span{
     font-size: 20px;
     margin-left: 50%;
     padding: 20px;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     border-top: 2px dotted black;
+    line-height: 1.25;
 }
 
 blockquote.six{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.19;
     text-align: left;
     font-size: 30px;
     padding-left: 40px;
     padding-top: 20px;
-    color: black;
+   
 }
 
 blockquote.seven{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.19;
     text-align: left;
     font-size: 30px;
     padding-left: 40px;
-    color: black;
+    
 }
 
 blockquote.eight{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.17;
     text-align: left;
     font-size: 30px;
     padding-left: 100px;
     padding-bottom: 20px;
-    color: black;
+    
 }
 
 .footer{
