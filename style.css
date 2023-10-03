@@ -4,8 +4,7 @@ h1{
     font-family: 'Vina Sans', cursive;
     font-size: 1000%;
     font-weight: lighter;
-    padding-bottom: 8px;
-    
+    padding-bottom: 8px;  
 }
 
 header {
@@ -119,7 +118,6 @@ blockquote.five{
 
 blockquote span{
     background-color: lightgray ;
-
 }
 
 .response{
@@ -142,7 +140,6 @@ blockquote.six{
     font-size: 30px;
     padding-left: 40px;
     padding-top: 20px;
-   
 }
 
 blockquote.seven{
@@ -153,7 +150,6 @@ blockquote.seven{
     text-align: left;
     font-size: 30px;
     padding-left: 40px;
-    
 }
 
 blockquote.eight{
@@ -164,8 +160,7 @@ blockquote.eight{
     text-align: left;
     font-size: 30px;
     padding-left: 100px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px;    
 }
 
 .footer{
