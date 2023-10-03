@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Roboto:ital,wght@0,300;0,400;1,300&family=Vina+Sans&display=swap');@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;1,300&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&family=Vina+Sans&display=swap');@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Roboto:ital,wght@0,300;0,400;1,300&family=Vina+Sans&display=swap');@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;1,300&family=Vina+Sans&display=swap');
 
 h1{
     font-family: 'Vina Sans', cursive;
@@ -27,7 +27,7 @@ header {
     left: 50%;
 }
 
-section{
+section{ 
     height: 3500px;
     top: 470px;
 }
@@ -44,6 +44,9 @@ section:nth-child(2){
 }
 
 aside p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
     padding: 0%;
     text-align: center;
 }
@@ -59,7 +62,7 @@ article {
 }
 
 p {
-    font-weight: 300;
+    font-weight: 400;
     padding: 20px;
     text-align: left;
     text-indent: 30px;
@@ -68,6 +71,7 @@ p {
 
 em{
     font-style: italic;
+    font-weight: 400;
 }
 
 blockquote.one{
