@@ -61,7 +61,7 @@ p {
     padding: 20px;
     text-align: left;
     text-indent: 30px;
-    line-height: 1.25;
+    line-height: 1.26;
 }
 
 em{
@@ -126,9 +126,9 @@ blockquote span{
     margin-left: 50%;
     padding: 20px;
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
     border-top: 2px dotted black;
-    line-height: 1.25;
+    line-height: 1.26;
 }
 
 a{
